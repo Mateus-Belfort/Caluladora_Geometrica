@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background:#b3bde6!important;
+  height: 100vh;
+}
+
+.navBar{
+  background: linear-gradient(#1793f8, #016ada) ;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-decoration: none;
+  color: #000;
+}
+a:link{
+  text-decoration: none;
+  color: #000;
+}
+a:hover{
+  color: #fff;
+  text-decoration: dotted;
+  
+}
+
+.navList{
+  display: inline; 
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;  
+  flex: 3rem;
+  animation: all 500ms;
+}
+
+.content{
+  background: #cad0e9;
+  padding: 2rem;
+  margin: 1rem;
+  height: 100vh;
+}
+
+.tittle{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+.paragraph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.formulario{
+  display: block;
+  border: 1px solid #000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+  width: 18rem;
+  height: auto;
+  margin: 1.2rem;
+  border-radius: .8rem;
+}
+h3{
+  background: #c1dfec;
+  color: #000;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+.btn{
+  background: #2fee5f;
+  color: #000;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin: 0.4rem;
+  padding: 0.3rem;
+  border-radius: .7rem;
+}
+
+.input{
+  border: none;
+  border-radius: .9rem;
+  padding: 0.5rem;  
+}
+
+.input1{
+  font-size: 1.2rem;  
+}
+
+.footer{
+  background: linear-gradient(#1793f8, #016ada) ;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
