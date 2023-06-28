@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <title>CALCULADORA GEOMETRICA</title>
+  <title>CALCULADORA GEOMÉTRICA</title>
 </head>
 <body>
   <header>
@@ -21,8 +21,8 @@
     </nav>
   </header>
   <main class="content">
-    <h1 class="tittle">Calculadora Geometrica</h1>
-    <p class="paragraph">Aqui você encontra formulas de calculos geometricos e uma calculadora prática geometrica</p>
+    <h1 class="tittle">Calculadora Geométrica</h1>
+    <p class="paragraph">Aqui você encontra fórmulas de cálculos geométricos e uma calculadora prática e simples</p>
     <div class="container">
       <div class="formulario">
         <h3>Soma</h3><br>
@@ -32,39 +32,39 @@
         <label for="valorB" class="input1">Segundo Valor</label> <br>
         <input type="number" id="valorB" class="input" required> <br><br>
 
-        <button id="soma" class="btn">Somar</button>
+        <button id="soma" class="btn" onclick="somar()">Somar</button>
       </div>
       <div class="formulario">
         <h3>Multiplicação</h3><br>
         <label for="valorA" class="input1">Primeiro Valor</label> <br>
-        <input type="number" id="valorA" class="input" required> <br><br>
+        <input type="number" id="valorC" class="input" required> <br><br>
 
         <label for="valorB" class="input1">Segundo Valor</label> <br>
-        <input type="number" id="valorB" class="input" required> <br><br>
+        <input type="number" id="valorD" class="input" required> <br><br>
 
-        <button id="multiplicar" class="btn">Multiplicar</button>
+        <button id="multiplicar" class="btn" onclick="multiplicar()">Multiplicar</button>
       </div>
 
       <div class="formulario">
         <h3>Divisão</h3><br>
         <label for="valorA" class="input1">Primeiro Valor</label> <br>
-        <input type="number" id="valorA" class="input" required> <br><br>
+        <input type="number" id="valorE" class="input" required> <br><br>
 
         <label for="valorB" class="input1">Segundo Valor</label> <br>
-        <input type="number" id="valorB" class="input" required> <br><br>
+        <input type="number" id="valorF" class="input" required> <br><br>
 
-        <button id="dividir" class="btn">Dividir</button>
+        <button id="dividir" class="btn" onclick="dividir()">Dividir</button>
       </div>
 
       <div class="formulario">
         <h3>Subtração</h3><br>
         <label for="valorA" class="input1">Primeiro Valor</label> <br>
-        <input type="number" id="valorA" class="input" required> <br><br>
+        <input type="number" id="valorG" class="input" required> <br><br>
 
         <label for="valorB" class="input1">Segundo Valor</label> <br>
-        <input type="number" id="valorB" class="input" required> <br><br>
+        <input type="number" id="valorH" class="input" required> <br><br>
 
-        <button id="subtrair" class="btn">Subtrair</button>
+        <button id="subtrair" class="btn" onclick="subtrair()">Subtrair</button>
       </div>
     </div>
    

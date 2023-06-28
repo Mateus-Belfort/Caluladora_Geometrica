@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="../assets/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -13,13 +13,23 @@
   <header>
     <nav class="navBar">
       <ul>
-        <li class="navList"><a href="./pages/circulo.html">Área de Circulo </a> | </li>
-        <li class="navList"> <a href="./pages/triangulo.html">Área de Triângulo </a> | </li>        
-        <li class="navList"> <a href="./pages/trapezio.html"> Área de Trapézio</a> | </li>
+        <li class="navList"><a href="circulo.html">Área de Circulo </a> | </li>
+        <li class="navList"> <a href="triangulo.html">Área de Triângulo </a> | </li>        
+        <li class="navList"> <a href="trapezio.html"> Área de Trapézio</a> | </li>
         <li class="navList"> <a href="../index.html">Página Inicial</a></li>
       </ul>
     </nav>
   </header>
+  <section class="conteudo">
+    <h3 id="tittle" class="tittle">ÁREA DE RETÂNGULO</h3>
+    <div class="formularioCenter">      
+    <label for="circulo" class="input1">Digite o valor do Raio</label> <br>
+    <input type="number" id="circulo" class="input" required> <br><br>
+
+    <button id="raio" class="btn" onclick="raio()">Calcular</button>
+    </div>
+    
+  </section>
   <footer class="footer">
     <p>Feito com 💖 por Mateus-Belfort</p>
     &copy; Copyright - Todos os direitos reservados
