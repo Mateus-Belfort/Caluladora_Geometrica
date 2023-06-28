@@ -38,10 +38,8 @@ a:hover{
   animation: all 500ms;
 }
 
-.content{
-  background: #cad0e9;
-  padding: 2rem;
-  margin: 1rem;
+.content{  
+  max-width: 100%;  
   height: 100vh;
 }
 
@@ -63,7 +61,7 @@ a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .formulario{
@@ -125,6 +123,8 @@ h3{
 
 .footer{
   background: linear-gradient(#1793f8, #016ada) ;
+  position: relative;
+  top: 45vh;
   max-width: 100%;
   height: auto;
   text-align: center;
@@ -144,9 +144,10 @@ h3{
     display: flex;
     flex-direction: column;
     padding: .5rem;
-    margin: .3rem;    
+    margin: .3rem;
+     
     max-width: 100%;
-    height: auto;
+    height: 250vh;
   }
 
   .tittle{    
@@ -158,18 +159,15 @@ h3{
   }
 
   .container{    
-    flex-direction: column;    
+    flex-direction: column;
+    position: relative;
+    top: 25vh;
     max-width: 100%;
-    height: 128vh;
+    height: auto;
   }
 
   .footer{    
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    display: block;
-    position: relative;
-    top: 5vh;
+    visibility: hidden;
   }
 
 }
@@ -202,18 +200,16 @@ h3{
   }
 
   .container{    
+    display: flex;
+    position: absolute;
+    top: 120vh;
     flex-direction: column;    
     max-width: 100%;
-    height: 128vh;
+    height: 100vh;
   }
 
   .footer{    
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    display: block;
-    position: relative;
-    top: 5vh;
+   visibility: hidden;
   }
 
 }
