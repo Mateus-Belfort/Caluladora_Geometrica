@@ -31,3 +31,37 @@ function subtrair(){
   let resultate = alert("A subtração entre " + entrada01 + " - " + entrada02 + " é: " + resultado)
   return resultate
 }
+
+function raio(){
+  let valorRaio = document.getElementById('circulo').value
+  let pi = 3.14
+  let result = pi * valorRaio * valorRaio
+  let view = alert ("O valor em metros do raio do circulo " + "(3.14 * " + valorRaio + "²) = " + result + "m")
+  return view
+}
+
+function retangulo(){
+  let valorBase = document.getElementById('base').value
+  let valorAltura = document.getElementById('altura').value  
+  let result = valorBase * valorAltura
+  let view = alert ("O valor da aréa do retângulo" + " ( com base: " + valorBase + " * altura: " + valorAltura + ") = " + result )
+  return view
+}
+
+function trapezio(){
+  let valorBaseMaior = parseInt(document.getElementById('baseMaior').value, 10)
+  let valorBaseMenor = parseInt( document.getElementById('baseMenor').value, 10)
+  let valorAltura = parseInt(document.getElementById('altura').value, 10)
+  let result = (valorBaseMaior + valorBaseMenor) * valorAltura / 2
+  let view = alert ("O valor da aréa do trapézio" + " ( com base maior: " + valorBaseMaior + " + base menor: " + valorBaseMenor + " ) * " +  " altura: " + valorAltura + " / 2 = " + result )
+  return view
+}
+
+function triangulo(){
+  let valorBase = document.getElementById('baseTriangulo').value
+  let valorAltura = document.getElementById('alturaTriangulo').value  
+  let result = (valorBase * valorAltura) / 2
+  let view = alert ("O valor da aréa do triângulo" + " (base: " + valorBase + " * altura: " + valorAltura + ") / 2 = " + result )
+  return view
+}
+
